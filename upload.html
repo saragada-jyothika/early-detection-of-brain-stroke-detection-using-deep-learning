@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stroke Detection</title>
+</head>
+<body>
+    <h2>Upload Brain Scan</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
