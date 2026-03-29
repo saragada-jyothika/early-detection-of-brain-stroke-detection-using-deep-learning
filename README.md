@@ -1,1 +1,1 @@
-# early-detection-of-brain-stroke-detection-using-deep-learning
+# early-detection-of-brain-stroke-using-deep-learning
